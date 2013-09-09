@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extension id="zenpen_editor" status="experimental" xmlns="http://symphony-cms.com/schemas/extension/1.0">
+	<name>Zenpen editor</name>
+	<description>
+		Zenpen editor integration for Symphony CMS
+	</description>
+	<repo type="github">https://github.com/DeuxHuitHuit/zenpen_editor</repo>
+	<url type="discuss">https://github.com/DeuxHuitHuit/zenpen_editor/issues</url>
+	<types>
+		<type>Editor</type>
+		<type>Workflow</type>
+		<type>Markdown</type>
+	</types>
+	<authors>
+		<author>
+			<name github="DeuxHuitHuit" symphony="nitriques" twitter="DeuxHuitHuit">Deux Huit Huit</name>
+			<website>http://www.deuxhuithuit.com</website>
+		</author>
+	</authors>
+	<dependencies>
+		<!-- None -->
+	</dependencies>
+	<releases>
+		<release version="1.0" date="TBA" min="2.3.2">
+			- First release
+		</release>
+	</releases>
+</extension>
